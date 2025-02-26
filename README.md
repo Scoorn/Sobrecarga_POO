@@ -117,6 +117,6 @@ Por ultimo queda la salida del programa como tal, en ella se pregunta si se dese
 
 ## Autora✒️
 Norkys Peña 
-## Gratitud
+## Gratitud 🎁
 Si deseas apoyar siguenos y comenta por alguna duda. 
 Aceptamos donaciones $$ 🤑
