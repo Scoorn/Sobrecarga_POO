@@ -4,10 +4,15 @@ _Para comenzar debemos saber que en una sobrecarga en la pogramacion orientada a
 ## Explicacion de primer ejemplo
 _Tenemos 3 archivos: "vector.py" es el encargado de calcular la norma de un vector. Se crea la clase Vector con el metodo 
 ```calculo_norma
+```
 Este metodo recibe un parametro vector que permite segun la ejecucion de su uso saber que dimension tendra es por ello que importamos la libreria
 ```import numpy as np
+```
+
 Esta contiene una funcion que hace el calculo de cualquier norma de un vector o una matriz.
 ```np.linalg.norm()
+```
+
 
 
 ##Ejecutando las pruebas ⚙️
