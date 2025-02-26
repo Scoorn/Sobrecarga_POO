@@ -25,8 +25,43 @@ La cual hace una suma de un lista de numero y esa misma la multiplica por un fac
 ```
 return suma,resultado
 ```
-Que nos devuelve tanto la suma como la resta. 
+Que nos devuelve tanto la suma como la multiplicacion de la lista. 
 
 ## Ejecutando las pruebas ⚙️
 En nuestro archivo "main.py" que vendria siendo nuestro archivo principal 
+importamos las clases (recuerda que estan en archivos separados): 
+```
+from vector import Vector
+from transformador import Transformador
+```
+Asi podremos utilizarlas en nuestro programa. Creamos una funcion para limpiar la terminal de ejecusion y no se vea todo colapsado
+```
+def limpiar_pantalla():
+      os.system('cls' if os.name == 'nt' else 'clear')
+```
+La llamaremos cada vez que sea conveniente limpiar la terminal. 
+Ahora bien colocamos:
+```
+while True:
+```
+Para hacer que el programa se repita hasta el usuario decida salir. 
+colocamos un menu que contiene el uso de nuestras diferentes funciones
+```
+opc=int(input("1: CALCULO NORMA DE UN VECTOR 2D \n2: CALCULO NORMAL DE UN VECTOR 3D \n3: SUMA DE UNA LISTA DE NUMEROS Y MULTIPLICARLOS POR EL NUMERO QUE ESCOJAS\n4:Salir\n" ))
+```
+En la opcion 1 Calcularemos la norma de un vector 2D solicitamos los datos correspondientes para hacer el calculo instaciamos nuestra clase, le pasamos los parametros recibidos 
+```
+vector=[v0,v1]
+        norma=Vector().calculo_norma(vector)
+        print(f"La norma del vector {v0} y {v1} es {norma}")
 
+```
+Se hace el calculo y deberia aparecer un salida similar (todo depende de los numero que ingrese el usuario) a esta:
+```
+1: CALCULO NORMA DE UN VECTOR 2D
+Ingresa primer valor
+3
+Ingresa segundo valor
+4
+La norma del vector 3 y 4 es 5.0
+```
